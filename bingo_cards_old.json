@@ -1,0 +1,222 @@
+{
+    "1": {
+        "bottom_left": "has been discriminated against in some way***",
+        "bottom_middle": "arrived at this party via the TTC. What bus/streetcar line did they take? How long did it take them?*",
+        "bottom_right": "has been arrested. What for?***",
+        "centre": "has done any of the following drugs: ketamine, LSD, cocaine, MDMA, DMT***",
+        "middle_left": "owns a residential property. What and where is it?**",
+        "middle_right": "has experienced culture shock upon moving to a new country. Where and how?**",
+        "top_left": "sometimes spends more than 3 hours cooking a single dish*",
+        "top_middle": "has participated in a protest or demonstration**",
+        "top_right": "is in a long term relationship of more than two years*"
+    },
+    "2": {
+        "bottom_left": "has experienced culture shock upon moving to a new country. Where and how?**",
+        "bottom_middle": "has watched other people engage in sexual intercourse***",
+        "bottom_right": "owns a residential property. What and where is it?**",
+        "centre": "goes to therapy. Why?***",
+        "middle_left": "has done something illegal without being caught***",
+        "middle_right": "identifies as an introvert**",
+        "top_left": "did NOT study engineering. What did they study?*",
+        "top_middle": "has a pet. What is their name?*",
+        "top_right": "has a creative outlet and has showcased their work in public.*"
+    },
+    "3": {
+        "bottom_left": "has read at least 2 books this year. What were they?*",
+        "bottom_middle": "has performed in front of an audience**",
+        "bottom_right": "has seen at least one movie at TIFF Lightbox. Name one of them.*",
+        "centre": "is a regular cannabis enjoyer. What method?**",
+        "middle_left": "owns a residential property. What and where is it?**",
+        "middle_right": "has watched other people engage in sexual intercourse***",
+        "top_left": "has had a crush on someone older than them by 10 years. Who?***",
+        "top_middle": "has a workplace enemy. Who and why?***",
+        "top_right": "wasn't born in Canada. Where where they born?*"
+    },
+    "4": {
+        "bottom_left": "does not drink alcohol or do drugs**",
+        "bottom_middle": "did not have a good time under the effects of a psychoactive drug. What was it?***",
+        "bottom_right": "has been to at least one rave of ambiguous legality. Where was it?**",
+        "centre": "sometimes spends more than 3 hours cooking a single dish*",
+        "middle_left": "enjoys pineapple on pizza*",
+        "middle_right": "has worked or studied outside of Canada. Where?**",
+        "top_left": "is having second thoughts about their choice in career***",
+        "top_middle": "has read at least 2 books this year. What were they?*",
+        "top_right": "is not on good terms with their parents. Why?***"
+    },
+    "5": {
+        "bottom_left": "is considering moving to another city/country**",
+        "bottom_middle": "is in a long term relationship of more than two years*",
+        "bottom_right": "has a pet. What is their name?*",
+        "centre": "practices BDSM and/or ethical non-monogamy (they do not have to specify which)***",
+        "middle_left": "has been discriminated against in some way***",
+        "middle_right": "has interacted with a celebrity IRL**",
+        "top_left": "has skiied or snowboarded since the beginning of the season. Where?*",
+        "top_middle": "does not drink alcohol or do drugs**",
+        "top_right": "identifies as \"kinky\". What are their kinks?***"
+    },
+    "6": {
+        "bottom_left": "met their current partner on a dating app. What made their partner stand out?**",
+        "bottom_middle": "has seen at least one movie at TIFF Lightbox. Name one of them.*",
+        "bottom_right": "is considering moving to another city/country**",
+        "centre": "wasn't born in Canada. Where where they born?*",
+        "middle_left": "has been arrested. What for?***",
+        "middle_right": "is attracted to twinks***",
+        "top_left": "arrived at this party via the TTC. What bus/streetcar line did they take? How long did it take them?*",
+        "top_middle": "has performed in front of an audience**",
+        "top_right": "did not have a good time under the effects of a psychoactive drug. What was it?***"
+    },
+    "7": {
+        "bottom_left": "has interacted with a celebrity IRL**",
+        "bottom_middle": "did not have a good time under the effects of a psychoactive drug. What was it?***",
+        "bottom_right": "arrived at this party via the TTC. What bus/streetcar line did they take? How long did it take them?*",
+        "centre": "has skiied or snowboarded since the beginning of the season. Where?*",
+        "middle_left": "is attracted to buff muscle mommies***",
+        "middle_right": "goes to therapy. Why?***",
+        "top_left": "is in a long term relationship of more than two years*",
+        "top_middle": "has experienced culture shock upon moving to a new country. Where and how?**",
+        "top_right": "has a niche hobby. What is it?**"
+    },
+    "8": {
+        "bottom_left": "has a workplace enemy. Who and why?***",
+        "bottom_middle": "identifies as \"kinky\". What are their kinks?***",
+        "bottom_right": "wasn't born in Canada. Where where they born?*",
+        "centre": "arrived at this party via the TTC. What bus/streetcar line did they take? How long did it take them?*",
+        "middle_left": "has been discriminated against in some way***",
+        "middle_right": "has seen at least one movie at TIFF Lightbox. Name one of them.*",
+        "top_left": "has performed in front of an audience**",
+        "top_middle": "is a regular cannabis enjoyer. What method?**",
+        "top_right": "owns a residential property. What and where is it?**"
+    },
+    "9": {
+        "bottom_left": "has done any of the following drugs: ketamine, LSD, cocaine, MDMA, DMT***",
+        "bottom_middle": "arrived at this party via the TTC. What bus/streetcar line did they take? How long did it take them?*",
+        "bottom_right": "can play a musical instrument. What is it?*",
+        "centre": "has skiied or snowboarded since the beginning of the season. Where?*",
+        "middle_left": "goes to therapy. Why?***",
+        "middle_right": "has done something illegal without being caught***",
+        "top_left": "identifies as an introvert**",
+        "top_middle": "has experienced a stay in the hospital for longer than a week. How long? Why?**",
+        "top_right": "has a niche hobby. What is it?**"
+    },
+    "10": {
+        "bottom_left": "did NOT study engineering. What did they study?*",
+        "bottom_middle": "has participated in a protest or demonstration**",
+        "bottom_right": "wasn't born in Canada. Where where they born?*",
+        "centre": "is having second thoughts about their choice in career***",
+        "middle_left": "goes to therapy. Why?***",
+        "middle_right": "met their current partner on a dating app. What made their partner stand out?**",
+        "top_left": "underwent a major surgical procedure. Where?**",
+        "top_middle": "has done any of the following drugs: ketamine, LSD, cocaine, MDMA, DMT***",
+        "top_right": "has read at least 2 books this year. What were they?*"
+    },
+    "11": {
+        "bottom_left": "has watched other people engage in sexual intercourse***",
+        "bottom_middle": "is still friends with an ex-partner***",
+        "bottom_right": "is in a long term relationship of more than two years*",
+        "centre": "has been in or currently is in a long distance relationship. Where was/is their partner?**",
+        "middle_left": "has read at least 2 books this year. What were they?*",
+        "middle_right": "has interacted with a celebrity IRL**",
+        "top_left": "has played a video game for more than four hours in a single session*",
+        "top_middle": "goes to therapy. Why?***",
+        "top_right": "has experienced a stay in the hospital for longer than a week. How long? Why?**"
+    },
+    "12": {
+        "bottom_left": "has travelled to at least 10 countries. List them.*",
+        "bottom_middle": "has experienced culture shock upon moving to a new country. Where and how?**",
+        "bottom_right": "has had a crush on someone older than them by 10 years. Who?***",
+        "centre": "has a creative outlet and has showcased their work in public.*",
+        "middle_left": "is still friends with an ex-partner***",
+        "middle_right": "has worked or studied outside of Canada. Where?**",
+        "top_left": "can play a musical instrument. What is it?*",
+        "top_middle": "did not have a good time under the effects of a psychoactive drug. What was it?***",
+        "top_right": "has performed in front of an audience**"
+    },
+    "13": {
+        "bottom_left": "met their current partner on a dating app. What made their partner stand out?**",
+        "bottom_middle": "has read at least 2 books this year. What were they?*",
+        "bottom_right": "has cut off someone they once called a friend from their life. Why?***",
+        "centre": "has experienced a stay in the hospital for longer than a week. How long? Why?**",
+        "middle_left": "sometimes spends more than 3 hours cooking a single dish*",
+        "middle_right": "is a regular cannabis enjoyer. What method?**",
+        "top_left": "is still friends with an ex-partner***",
+        "top_middle": "enjoys pineapple on pizza*",
+        "top_right": "has had a crush on someone older than them by 10 years. Who?***"
+    },
+    "14": {
+        "bottom_left": "is attracted to buff muscle mommies***",
+        "bottom_middle": "sometimes spends more than 3 hours cooking a single dish*",
+        "bottom_right": "has experienced culture shock upon moving to a new country. Where and how?**",
+        "centre": "wasn't born in Canada. Where where they born?*",
+        "middle_left": "has been to at least one rave of ambiguous legality. Where was it?**",
+        "middle_right": "did not have a good time under the effects of a psychoactive drug. What was it?***",
+        "top_left": "has cut off someone they once called a friend from their life. Why?***",
+        "top_middle": "has skiied or snowboarded since the beginning of the season. Where?*",
+        "top_right": "underwent a major surgical procedure. Where?**"
+    },
+    "15": {
+        "bottom_left": "has experienced culture shock upon moving to a new country. Where and how?**",
+        "bottom_middle": "has been to at least one rave of ambiguous legality. Where was it?**",
+        "bottom_right": "has skiied or snowboarded since the beginning of the season. Where?*",
+        "centre": "identifies as \"kinky\". What are their kinks?***",
+        "middle_left": "has a creative outlet and has showcased their work in public.*",
+        "middle_right": "has travelled to at least 10 countries. List them.*",
+        "top_left": "is attracted to buff muscle mommies***",
+        "top_middle": "has been discriminated against in some way***",
+        "top_right": "does not identify as heterosexual**"
+    },
+    "16": {
+        "bottom_left": "is attracted to buff muscle mommies***",
+        "bottom_middle": "has seen at least one movie at TIFF Lightbox. Name one of them.*",
+        "bottom_right": "underwent a major surgical procedure. Where?**",
+        "centre": "is a regular cannabis enjoyer. What method?**",
+        "middle_left": "sometimes spends more than 3 hours cooking a single dish*",
+        "middle_right": "has done any of the following drugs: ketamine, LSD, cocaine, MDMA, DMT***",
+        "top_left": "started a fight and won***",
+        "top_middle": "arrived at this party via the TTC. What bus/streetcar line did they take? How long did it take them?*",
+        "top_right": "identifies as an introvert**"
+    },
+    "17": {
+        "bottom_left": "has read at least 2 books this year. What were they?*",
+        "bottom_middle": "arrived at this party via the TTC. What bus/streetcar line did they take? How long did it take them?*",
+        "bottom_right": "underwent a major surgical procedure. Where?**",
+        "centre": "is having second thoughts about their choice in career***",
+        "middle_left": "has travelled to at least 10 countries. List them.*",
+        "middle_right": "is considering moving to another city/country**",
+        "top_left": "has done any of the following drugs: ketamine, LSD, cocaine, MDMA, DMT***",
+        "top_middle": "is still friends with an ex-partner***",
+        "top_right": "identifies as an introvert**"
+    },
+    "18": {
+        "bottom_left": "practices BDSM and/or ethical non-monogamy (they do not have to specify which)***",
+        "bottom_middle": "has experienced a stay in the hospital for longer than a week. How long? Why?**",
+        "bottom_right": "is considering moving to another city/country**",
+        "centre": "has a pet. What is their name?*",
+        "middle_left": "does not identify as heterosexual**",
+        "middle_right": "has been arrested. What for?***",
+        "top_left": "has a creative outlet and has showcased their work in public.*",
+        "top_middle": "wasn't born in Canada. Where where they born?*",
+        "top_right": "identifies as \"kinky\". What are their kinks?***"
+    },
+    "19": {
+        "bottom_left": "has read at least 2 books this year. What were they?*",
+        "bottom_middle": "is not on good terms with their parents. Why?***",
+        "bottom_right": "sometimes spends more than 3 hours cooking a single dish*",
+        "centre": "has cut off someone they once called a friend from their life. Why?***",
+        "middle_left": "has been discriminated against in some way***",
+        "middle_right": "is considering moving to another city/country**",
+        "top_left": "has interacted with a celebrity IRL**",
+        "top_middle": "is in a long term relationship of more than two years*",
+        "top_right": "managed to recover an important possession after losing it. What was it?**"
+    },
+    "20": {
+        "bottom_left": "started a fight and won***",
+        "bottom_middle": "is a regular cannabis enjoyer. What method?**",
+        "bottom_right": "practices BDSM and/or ethical non-monogamy (they do not have to specify which)***",
+        "centre": "has participated in a protest or demonstration**",
+        "middle_left": "has read at least 2 books this year. What were they?*",
+        "middle_right": "identifies as an introvert**",
+        "top_left": "sometimes spends more than 3 hours cooking a single dish*",
+        "top_middle": "has seen at least one movie at TIFF Lightbox. Name one of them.*",
+        "top_right": "has been arrested. What for?***"
+    }
+}

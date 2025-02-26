@@ -1,0 +1,116 @@
+{
+    "1": {
+        "bottom_left": {
+            "content": "managed to recover an important possession after losing it. What was it?",
+            "spice_level": "mild"
+        },
+        "bottom_middle": {
+            "content": "has seen at least one movie at TIFF Lightbox. Name one of them.",
+            "spice_level": "innocent"
+        },
+        "bottom_right": {
+            "content": "unironically enjoys pineapple on pizza",
+            "spice_level": "innocent"
+        },
+        "centre": {
+            "content": "is attracted to buff muscle mommies",
+            "spice_level": "spicy"
+        },
+        "middle_left": {
+            "content": "has been to at least one rave of ambiguous legality. Where was it?",
+            "spice_level": "mild"
+        },
+        "middle_right": {
+            "content": "has skiied or snowboarded since the beginning of the season. Where?",
+            "spice_level": "innocent"
+        },
+        "top_left": {
+            "content": "is still friends with an ex-partner",
+            "spice_level": "spicy"
+        },
+        "top_middle": {
+            "content": "has experienced a stay in the hospital for longer than a week. How long? Why?",
+            "spice_level": "mild"
+        },
+        "top_right": {
+            "content": "has had a crush on someone older than them by 10 years. Who?",
+            "spice_level": "spicy"
+        }
+    },
+    "2": {
+        "bottom_left": {
+            "content": "unironically enjoys pineapple on pizza",
+            "spice_level": "innocent"
+        },
+        "bottom_middle": {
+            "content": "owns a residential property. What and where is it?",
+            "spice_level": "mild"
+        },
+        "bottom_right": {
+            "content": "has skiied or snowboarded since the beginning of the season. Where?",
+            "spice_level": "innocent"
+        },
+        "centre": {
+            "content": "has performed in front of an audience",
+            "spice_level": "mild"
+        },
+        "middle_left": {
+            "content": "has done any of the following drugs: ketamine, LSD, cocaine, MDMA, DMT",
+            "spice_level": "spicy"
+        },
+        "middle_right": {
+            "content": "wasn't born in Canada. Where where they born?",
+            "spice_level": "innocent"
+        },
+        "top_left": {
+            "content": "goes to therapy. Why?",
+            "spice_level": "spicy"
+        },
+        "top_middle": {
+            "content": "has experienced culture shock upon moving to a new country. Where and how?",
+            "spice_level": "mild"
+        },
+        "top_right": {
+            "content": "started a fight and won",
+            "spice_level": "spicy"
+        }
+    },
+    "3": {
+        "bottom_left": {
+            "content": "has been in or currently is in a long distance relationship. Where was/is their partner?",
+            "spice_level": "mild"
+        },
+        "bottom_middle": {
+            "content": "has seen at least one movie at TIFF Lightbox. Name one of them.",
+            "spice_level": "innocent"
+        },
+        "bottom_right": {
+            "content": "has experienced culture shock upon moving to a new country. Where and how?",
+            "spice_level": "mild"
+        },
+        "centre": {
+            "content": "is having second thoughts about their choice in career",
+            "spice_level": "spicy"
+        },
+        "middle_left": {
+            "content": "does not drink alcohol or do drugs",
+            "spice_level": "mild"
+        },
+        "middle_right": {
+            "content": "unironically enjoys pineapple on pizza",
+            "spice_level": "innocent"
+        },
+        "top_left": {
+            "content": "started a fight and won",
+            "spice_level": "spicy"
+        },
+        "top_middle": {
+            "content": "has played a video game for more than four hours in a single session",
+            "spice_level": "innocent"
+        },
+        "top_right": {
+            "content": "has been discriminated against in some way",
+            "spice_level": "spicy"
+        }
+    }
+}
