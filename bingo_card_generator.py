@@ -1,8 +1,6 @@
 import random
 import json
 
-PLAYER_COUNT = 3
-# 🌶 \U0001F336
 def fill_list_from_file(filename):
     output_list = []
     with open(filename) as file: 
@@ -64,24 +62,23 @@ def generate_unique_bingo_cards(count, master_dict):
 if __name__ == "__main__":
     filename = 'bingo_cards.json'
 
-    num_cards = PLAYER_COUNT  # Change this to generate more cards
+    player_count = int(input('How many people are playing?\n'))  # Change this to generate more cards
     master_files = ['innocent.txt',
                     'mild.txt', 
                     'spicy.txt']
     bingo_cards_dict = {}
-    for i in range(PLAYER_COUNT):
+    for i in range(player_count):
         bingo_cards_dict.update({i+1 : None})
-    print(bingo_cards_dict)
     master_dict = generate_master_dict(master_files)
     # bingo_cards = generate_unique_bingo_cards(num_cards, master_dict)
     
     # Store each card with an index in the dictionary
-    for i in range(PLAYER_COUNT):
+    for i in range(player_count):
         bingo_cards_dict[i+1] = generate_bingo_card(master_dict)
     # Write the full dictionary to JSON
     with open(filename, 'w') as out_file:
         json.dump(bingo_cards_dict, out_file, indent=4, sort_keys=True)
 
-    print(f"Successfully saved {num_cards} bingo cards to {filename}.")
+    print(f"Successfully saved {player_count} bingo cards to {filename}.")
 
 
