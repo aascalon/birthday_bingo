@@ -8,7 +8,7 @@ class BingoScorer(tk.Tk):
         super().__init__()
         
         self.title("Adrianna's Bingo Scorer!")
-        self.geometry("800x800")
+        self.geometry("1000x1000")
         self.configure(padx=0, pady=0)
         
         # Define spice level to point mapping
@@ -40,16 +40,18 @@ class BingoScorer(tk.Tk):
         
         # Create frames
         self.create_header_frame()
+        self.create_results_frame()
+
         self.create_grid_frame()
         self.create_controls_frame()
-        self.create_results_frame()
         
         # Initialize the grid
         self.initialize_grid()
         
         # Load cards data
         self.load_cards_data()
-
+    # def create_window_grid()
+        
     def create_header_frame(self):
         header_frame = tk.Frame(self)
         header_frame.pack(fill="x", pady=(0, 10))
@@ -113,13 +115,13 @@ class BingoScorer(tk.Tk):
     def create_results_frame(self):
         self.results_frame = tk.Frame(self)
         
-        self.results_frame.pack(fill="x", pady=0)
+        self.results_frame.pack(fill="y", pady=0, side=tk.RIGHT)
         
         self.score_label = tk.Label(self.results_frame, text="Score: 0", font=("Arial", 14, "bold"))
-        self.score_label.pack(pady=10)
+        self.score_label.pack(pady=2, side=tk.TOP)
         
-        self.details_text = tk.Text(self.results_frame, height=5, width=60)
-        self.details_text.pack(fill="both", expand=True)
+        self.details_text = tk.Text(self.results_frame, height=20, width=60)
+        self.details_text.pack(fill="x", expand=False)
 
     def initialize_grid(self):
         # Clear existing widgets in grid_frame
