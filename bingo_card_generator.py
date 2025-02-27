@@ -77,7 +77,7 @@ if __name__ == "__main__":
         bingo_cards_dict[i+1] = generate_bingo_card(master_dict)
     # Write the full dictionary to JSON
     with open(filename, 'w') as out_file:
-        json.dump(bingo_cards_dict, out_file, indent=4, sort_keys=True)
+        json.dump(bingo_cards_dict, out_file, indent=4)
 
     print(f"Successfully saved {player_count} bingo cards to {filename}.")
 
