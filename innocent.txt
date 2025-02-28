@@ -12,7 +12,7 @@ has the patience to spend more than 3 hours cooking a single dish
 has played a video game for more than four hours in a single session
 is in a long term relationship of more than two years
 unironically enjoys pineapple on pizza
-enjoys natural wine
+likes natural wine
 worked in the service industry
 is an aunt or uncle
 participated in a Dry January 
@@ -24,3 +24,5 @@ knows at least three programming languages
 lost mobility as a result of an injury sustained during physical activity
 has been a bridsmaid or groomsman
 received an illness from eating something
+discovered they were allergic/sensitive to something in adulthood
+is addicted to something that isn't a drug
