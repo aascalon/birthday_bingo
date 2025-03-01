@@ -1,762 +1,952 @@
 {
     "1": {
-        "bottom_left": {
-            "content": "met their current partner on a dating app",
-            "spice_level": "mild"
-        },
-        "bottom_middle": {
-            "content": "has a negative experience with a psychoactive drug",
-            "spice_level": "spicy"
-        },
-        "bottom_right": {
-            "content": "participated in a Dry January",
-            "spice_level": "innocent"
-        },
-        "centre": {
-            "content": "has a pet",
-            "spice_level": "innocent"
-        },
-        "middle_left": {
-            "content": "has done something illegal without being caught",
-            "spice_level": "spicy"
-        },
-        "middle_right": {
-            "content": "has a niche hobby",
-            "spice_level": "mild"
-        },
         "top_left": {
-            "content": "has been kicked out of an establishment",
-            "spice_level": "mild"
+            "content": "had a negative experience with a psychoactive drug",
+            "spice_level": "spicy"
         },
         "top_middle": {
-            "content": "has watched more than 100 episodes of a single anime",
+            "content": "has the patience to spend more than 3 hours cooking a single dish",
             "spice_level": "innocent"
         },
         "top_right": {
-            "content": "has been discriminated against in some way",
-            "spice_level": "spicy"
-        }
-    },
-    "2": {
-        "bottom_left": {
-            "content": "is still friends with an ex-partner",
-            "spice_level": "spicy"
-        },
-        "bottom_middle": {
-            "content": "has been set up on a date by a third party",
-            "spice_level": "mild"
-        },
-        "bottom_right": {
-            "content": "lost an important possession and managed to recover it after at least a day",
-            "spice_level": "mild"
-        },
-        "centre": {
-            "content": "has streaked or witnessed someone streaking",
-            "spice_level": "mild"
-        },
-        "middle_left": {
-            "content": "has a workplace enemy",
-            "spice_level": "spicy"
-        },
-        "middle_right": {
-            "content": "has a pet",
-            "spice_level": "innocent"
-        },
-        "top_left": {
-            "content": "enjoys natural wine",
-            "spice_level": "innocent"
-        },
-        "top_middle": {
-            "content": "has a negative experience with a psychoactive drug",
-            "spice_level": "spicy"
-        },
-        "top_right": {
-            "content": "has worked or studied outside of Canada",
-            "spice_level": "innocent"
-        }
-    },
-    "3": {
-        "bottom_left": {
-            "content": "did NOT study engineering",
-            "spice_level": "innocent"
-        },
-        "bottom_middle": {
-            "content": "engaged in sexual intercourse outside of the home",
-            "spice_level": "spicy"
-        },
-        "bottom_right": {
-            "content": "has experienced going from \"friends to lovers\" with someone",
-            "spice_level": "spicy"
-        },
-        "centre": {
-            "content": "has participated in a protest or demonstration",
-            "spice_level": "mild"
-        },
-        "middle_left": {
-            "content": "has been kicked out of an establishment",
-            "spice_level": "mild"
-        },
-        "middle_right": {
-            "content": "has watched more than 100 episodes of a single anime",
-            "spice_level": "innocent"
-        },
-        "top_left": {
-            "content": "has researched someone's LinkedIn prior to a date",
-            "spice_level": "mild"
-        },
-        "top_middle": {
-            "content": "practices BDSM and/or ethical non-monogamy (they do not have to specify which)",
-            "spice_level": "spicy"
-        },
-        "top_right": {
-            "content": "can play a musical instrument",
-            "spice_level": "innocent"
-        }
-    },
-    "4": {
-        "bottom_left": {
-            "content": "currently hates their job",
-            "spice_level": "mild"
-        },
-        "bottom_middle": {
-            "content": "has been a bridsmaid or groomsman",
-            "spice_level": "innocent"
-        },
-        "bottom_right": {
-            "content": "is a regular cannabis enjoyer",
-            "spice_level": "mild"
-        },
-        "centre": {
-            "content": "has a revenue generating side hustle",
-            "spice_level": "innocent"
-        },
-        "middle_left": {
-            "content": "is having second thoughts about their choice in career",
-            "spice_level": "spicy"
-        },
-        "middle_right": {
             "content": "goes to therapy",
             "spice_level": "spicy"
         },
+        "middle_left": {
+            "content": "likes natural wine",
+            "spice_level": "innocent"
+        },
+        "centre": {
+            "content": "reconsidered a friendship because of their friend's taste in media",
+            "spice_level": "mild"
+        },
+        "middle_right": {
+            "content": "has worked or studied outside of Canada",
+            "spice_level": "innocent"
+        },
+        "bottom_left": {
+            "content": "has initiated a breakup",
+            "spice_level": "spicy"
+        },
+        "bottom_middle": {
+            "content": "has interacted with a celebrity IRL",
+            "spice_level": "mild"
+        },
+        "bottom_right": {
+            "content": "does not work in the field they envisioned as a child",
+            "spice_level": "mild"
+        }
+    },
+    "2": {
         "top_left": {
-            "content": "has a workplace enemy",
+            "content": "had a negative experience with a psychoactive drug",
             "spice_level": "spicy"
         },
         "top_middle": {
-            "content": "arrived at this party via the TTC",
+            "content": "has the patience to spend more than 3 hours cooking a single dish",
             "spice_level": "innocent"
         },
         "top_right": {
-            "content": "has streaked or witnessed someone streaking",
+            "content": "goes to therapy",
+            "spice_level": "spicy"
+        },
+        "middle_left": {
+            "content": "likes natural wine",
+            "spice_level": "innocent"
+        },
+        "centre": {
+            "content": "reconsidered a friendship because of their friend's taste in media",
+            "spice_level": "mild"
+        },
+        "middle_right": {
+            "content": "has worked or studied outside of Canada",
+            "spice_level": "innocent"
+        },
+        "bottom_left": {
+            "content": "has initiated a breakup",
+            "spice_level": "spicy"
+        },
+        "bottom_middle": {
+            "content": "has interacted with a celebrity IRL",
+            "spice_level": "mild"
+        },
+        "bottom_right": {
+            "content": "does not work in the field they envisioned as a child",
+            "spice_level": "mild"
+        }
+    },
+    "3": {
+        "top_left": {
+            "content": "had a negative experience with a psychoactive drug",
+            "spice_level": "spicy"
+        },
+        "top_middle": {
+            "content": "has the patience to spend more than 3 hours cooking a single dish",
+            "spice_level": "innocent"
+        },
+        "top_right": {
+            "content": "goes to therapy",
+            "spice_level": "spicy"
+        },
+        "middle_left": {
+            "content": "likes natural wine",
+            "spice_level": "innocent"
+        },
+        "centre": {
+            "content": "reconsidered a friendship because of their friend's taste in media",
+            "spice_level": "mild"
+        },
+        "middle_right": {
+            "content": "has worked or studied outside of Canada",
+            "spice_level": "innocent"
+        },
+        "bottom_left": {
+            "content": "has initiated a breakup",
+            "spice_level": "spicy"
+        },
+        "bottom_middle": {
+            "content": "has interacted with a celebrity IRL",
+            "spice_level": "mild"
+        },
+        "bottom_right": {
+            "content": "does not work in the field they envisioned as a child",
+            "spice_level": "mild"
+        }
+    },
+    "4": {
+        "top_left": {
+            "content": "had a negative experience with a psychoactive drug",
+            "spice_level": "spicy"
+        },
+        "top_middle": {
+            "content": "has the patience to spend more than 3 hours cooking a single dish",
+            "spice_level": "innocent"
+        },
+        "top_right": {
+            "content": "goes to therapy",
+            "spice_level": "spicy"
+        },
+        "middle_left": {
+            "content": "likes natural wine",
+            "spice_level": "innocent"
+        },
+        "centre": {
+            "content": "reconsidered a friendship because of their friend's taste in media",
+            "spice_level": "mild"
+        },
+        "middle_right": {
+            "content": "has worked or studied outside of Canada",
+            "spice_level": "innocent"
+        },
+        "bottom_left": {
+            "content": "has initiated a breakup",
+            "spice_level": "spicy"
+        },
+        "bottom_middle": {
+            "content": "has interacted with a celebrity IRL",
+            "spice_level": "mild"
+        },
+        "bottom_right": {
+            "content": "does not work in the field they envisioned as a child",
             "spice_level": "mild"
         }
     },
     "5": {
-        "bottom_left": {
-            "content": "has a revenue generating side hustle",
-            "spice_level": "innocent"
-        },
-        "bottom_middle": {
-            "content": "has read at least 2 books this year",
-            "spice_level": "innocent"
-        },
-        "bottom_right": {
-            "content": "has crushed on someone older than them by 10 years",
-            "spice_level": "spicy"
-        },
-        "centre": {
-            "content": "faked being sober",
-            "spice_level": "mild"
-        },
-        "middle_left": {
-            "content": "has participated in a protest or demonstration",
-            "spice_level": "mild"
-        },
-        "middle_right": {
-            "content": "has performed in front of an audience",
-            "spice_level": "mild"
-        },
         "top_left": {
-            "content": "is having second thoughts about their choice in career",
+            "content": "had a negative experience with a psychoactive drug",
             "spice_level": "spicy"
         },
         "top_middle": {
-            "content": "has a pet",
+            "content": "has the patience to spend more than 3 hours cooking a single dish",
             "spice_level": "innocent"
         },
         "top_right": {
-            "content": "has been arrested",
+            "content": "goes to therapy",
             "spice_level": "spicy"
+        },
+        "middle_left": {
+            "content": "likes natural wine",
+            "spice_level": "innocent"
+        },
+        "centre": {
+            "content": "reconsidered a friendship because of their friend's taste in media",
+            "spice_level": "mild"
+        },
+        "middle_right": {
+            "content": "has worked or studied outside of Canada",
+            "spice_level": "innocent"
+        },
+        "bottom_left": {
+            "content": "has initiated a breakup",
+            "spice_level": "spicy"
+        },
+        "bottom_middle": {
+            "content": "has interacted with a celebrity IRL",
+            "spice_level": "mild"
+        },
+        "bottom_right": {
+            "content": "does not work in the field they envisioned as a child",
+            "spice_level": "mild"
         }
     },
     "6": {
-        "bottom_left": {
-            "content": "was broken up with remotely",
-            "spice_level": "spicy"
-        },
-        "bottom_middle": {
-            "content": "does not work in the field they envisioned as a child",
-            "spice_level": "mild"
-        },
-        "bottom_right": {
-            "content": "currently hates their job",
-            "spice_level": "mild"
-        },
-        "centre": {
-            "content": "bikes to work",
-            "spice_level": "innocent"
-        },
-        "middle_left": {
-            "content": "participated in a Dry January",
-            "spice_level": "innocent"
-        },
-        "middle_right": {
-            "content": "lost a fight",
-            "spice_level": "spicy"
-        },
         "top_left": {
-            "content": "faked being an expert on a topic they know nothing about",
+            "content": "had a negative experience with a psychoactive drug",
             "spice_level": "spicy"
         },
         "top_middle": {
-            "content": "enjoys natural wine",
+            "content": "has the patience to spend more than 3 hours cooking a single dish",
             "spice_level": "innocent"
         },
         "top_right": {
-            "content": "owns a residential property",
+            "content": "goes to therapy",
+            "spice_level": "spicy"
+        },
+        "middle_left": {
+            "content": "likes natural wine",
+            "spice_level": "innocent"
+        },
+        "centre": {
+            "content": "reconsidered a friendship because of their friend's taste in media",
+            "spice_level": "mild"
+        },
+        "middle_right": {
+            "content": "has worked or studied outside of Canada",
+            "spice_level": "innocent"
+        },
+        "bottom_left": {
+            "content": "has initiated a breakup",
+            "spice_level": "spicy"
+        },
+        "bottom_middle": {
+            "content": "has interacted with a celebrity IRL",
+            "spice_level": "mild"
+        },
+        "bottom_right": {
+            "content": "does not work in the field they envisioned as a child",
             "spice_level": "mild"
         }
     },
     "7": {
-        "bottom_left": {
-            "content": "has experienced going from \"friends to lovers\" with someone",
-            "spice_level": "spicy"
-        },
-        "bottom_middle": {
-            "content": "identifies as an introvert",
-            "spice_level": "mild"
-        },
-        "bottom_right": {
-            "content": "has read at least 2 books this year",
-            "spice_level": "innocent"
-        },
-        "centre": {
-            "content": "is ashamed about some aspect of their identity",
-            "spice_level": "spicy"
-        },
-        "middle_left": {
-            "content": "is an aunt or uncle",
-            "spice_level": "innocent"
-        },
-        "middle_right": {
-            "content": "has participated in a protest or demonstration",
-            "spice_level": "mild"
-        },
         "top_left": {
-            "content": "was broken up with remotely",
+            "content": "had a negative experience with a psychoactive drug",
             "spice_level": "spicy"
         },
         "top_middle": {
-            "content": "met their current partner on a dating app",
-            "spice_level": "mild"
+            "content": "has the patience to spend more than 3 hours cooking a single dish",
+            "spice_level": "innocent"
         },
         "top_right": {
-            "content": "bikes to work",
-            "spice_level": "innocent"
-        }
-    },
-    "8": {
-        "bottom_left": {
             "content": "goes to therapy",
             "spice_level": "spicy"
         },
-        "bottom_middle": {
-            "content": "is still friends with an ex-partner",
-            "spice_level": "spicy"
-        },
-        "bottom_right": {
-            "content": "identifies as an introvert",
-            "spice_level": "mild"
+        "middle_left": {
+            "content": "likes natural wine",
+            "spice_level": "innocent"
         },
         "centre": {
-            "content": "has watched more than 100 episodes of a single anime",
-            "spice_level": "innocent"
-        },
-        "middle_left": {
-            "content": "has peeped at the contents of their partner's phone",
-            "spice_level": "spicy"
+            "content": "reconsidered a friendship because of their friend's taste in media",
+            "spice_level": "mild"
         },
         "middle_right": {
-            "content": "is an aunt or uncle",
+            "content": "has worked or studied outside of Canada",
             "spice_level": "innocent"
         },
-        "top_left": {
+        "bottom_left": {
+            "content": "has initiated a breakup",
+            "spice_level": "spicy"
+        },
+        "bottom_middle": {
             "content": "has interacted with a celebrity IRL",
             "spice_level": "mild"
         },
+        "bottom_right": {
+            "content": "does not work in the field they envisioned as a child",
+            "spice_level": "mild"
+        }
+    },
+    "8": {
+        "top_left": {
+            "content": "had a negative experience with a psychoactive drug",
+            "spice_level": "spicy"
+        },
         "top_middle": {
-            "content": "enjoys natural wine",
+            "content": "has the patience to spend more than 3 hours cooking a single dish",
             "spice_level": "innocent"
         },
         "top_right": {
-            "content": "faked being sober",
+            "content": "goes to therapy",
+            "spice_level": "spicy"
+        },
+        "middle_left": {
+            "content": "likes natural wine",
+            "spice_level": "innocent"
+        },
+        "centre": {
+            "content": "reconsidered a friendship because of their friend's taste in media",
+            "spice_level": "mild"
+        },
+        "middle_right": {
+            "content": "has worked or studied outside of Canada",
+            "spice_level": "innocent"
+        },
+        "bottom_left": {
+            "content": "has initiated a breakup",
+            "spice_level": "spicy"
+        },
+        "bottom_middle": {
+            "content": "has interacted with a celebrity IRL",
+            "spice_level": "mild"
+        },
+        "bottom_right": {
+            "content": "does not work in the field they envisioned as a child",
             "spice_level": "mild"
         }
     },
     "9": {
-        "bottom_left": {
-            "content": "is having second thoughts about their choice in career",
-            "spice_level": "spicy"
-        },
-        "bottom_middle": {
-            "content": "has been kicked out of an establishment",
-            "spice_level": "mild"
-        },
-        "bottom_right": {
-            "content": "has peeped at the contents of their partner's phone",
-            "spice_level": "spicy"
-        },
-        "centre": {
-            "content": "lost mobility as a result of an injury sustained during physical activity",
-            "spice_level": "innocent"
-        },
-        "middle_left": {
-            "content": "openly does not identify as heterosexual",
-            "spice_level": "mild"
-        },
-        "middle_right": {
-            "content": "currently hates their job",
-            "spice_level": "mild"
-        },
         "top_left": {
-            "content": "has cut off someone they once called a friend from their life",
+            "content": "had a negative experience with a psychoactive drug",
             "spice_level": "spicy"
         },
         "top_middle": {
-            "content": "has skiied or snowboarded since the beginning of the season",
+            "content": "has the patience to spend more than 3 hours cooking a single dish",
             "spice_level": "innocent"
         },
         "top_right": {
-            "content": "has watched more than 100 episodes of a single anime",
-            "spice_level": "innocent"
-        }
-    },
-    "10": {
-        "bottom_left": {
-            "content": "has performed in front of an audience",
-            "spice_level": "mild"
-        },
-        "bottom_middle": {
-            "content": "has a niche hobby",
-            "spice_level": "mild"
-        },
-        "bottom_right": {
-            "content": "has read at least 2 books this year",
-            "spice_level": "innocent"
-        },
-        "centre": {
-            "content": "has been arrested",
+            "content": "goes to therapy",
             "spice_level": "spicy"
         },
         "middle_left": {
-            "content": "knows at least three programming languages",
+            "content": "likes natural wine",
             "spice_level": "innocent"
+        },
+        "centre": {
+            "content": "reconsidered a friendship because of their friend's taste in media",
+            "spice_level": "mild"
         },
         "middle_right": {
-            "content": "is ashamed about some aspect of their identity",
-            "spice_level": "spicy"
-        },
-        "top_left": {
-            "content": "wasn't born in Canada.",
+            "content": "has worked or studied outside of Canada",
             "spice_level": "innocent"
         },
-        "top_middle": {
+        "bottom_left": {
+            "content": "has initiated a breakup",
+            "spice_level": "spicy"
+        },
+        "bottom_middle": {
             "content": "has interacted with a celebrity IRL",
             "spice_level": "mild"
         },
-        "top_right": {
-            "content": "is not on good terms with their parents. Why?",
-            "spice_level": "spicy"
+        "bottom_right": {
+            "content": "does not work in the field they envisioned as a child",
+            "spice_level": "mild"
         }
     },
-    "11": {
-        "bottom_left": {
-            "content": "wasn't born in Canada.",
-            "spice_level": "innocent"
-        },
-        "bottom_middle": {
-            "content": "arrived at this party via the TTC",
-            "spice_level": "innocent"
-        },
-        "bottom_right": {
-            "content": "has crushed on someone older than them by 10 years",
-            "spice_level": "spicy"
-        },
-        "centre": {
-            "content": "has pretended to like something or someone to maintain group cohesion",
-            "spice_level": "mild"
-        },
-        "middle_left": {
-            "content": "has performed in front of an audience",
-            "spice_level": "mild"
-        },
-        "middle_right": {
-            "content": "did NOT study engineering",
-            "spice_level": "innocent"
-        },
+    "10": {
         "top_left": {
-            "content": "faked being an expert on a topic they know nothing about",
+            "content": "had a negative experience with a psychoactive drug",
             "spice_level": "spicy"
         },
         "top_middle": {
-            "content": "is having second thoughts about their choice in career",
-            "spice_level": "spicy"
+            "content": "has the patience to spend more than 3 hours cooking a single dish",
+            "spice_level": "innocent"
         },
         "top_right": {
-            "content": "has experienced a stay in the hospital for longer than a week",
+            "content": "goes to therapy",
+            "spice_level": "spicy"
+        },
+        "middle_left": {
+            "content": "likes natural wine",
+            "spice_level": "innocent"
+        },
+        "centre": {
+            "content": "reconsidered a friendship because of their friend's taste in media",
+            "spice_level": "mild"
+        },
+        "middle_right": {
+            "content": "has worked or studied outside of Canada",
+            "spice_level": "innocent"
+        },
+        "bottom_left": {
+            "content": "has initiated a breakup",
+            "spice_level": "spicy"
+        },
+        "bottom_middle": {
+            "content": "has interacted with a celebrity IRL",
+            "spice_level": "mild"
+        },
+        "bottom_right": {
+            "content": "does not work in the field they envisioned as a child",
+            "spice_level": "mild"
+        }
+    },
+    "11": {
+        "top_left": {
+            "content": "had a negative experience with a psychoactive drug",
+            "spice_level": "spicy"
+        },
+        "top_middle": {
+            "content": "has the patience to spend more than 3 hours cooking a single dish",
+            "spice_level": "innocent"
+        },
+        "top_right": {
+            "content": "goes to therapy",
+            "spice_level": "spicy"
+        },
+        "middle_left": {
+            "content": "likes natural wine",
+            "spice_level": "innocent"
+        },
+        "centre": {
+            "content": "reconsidered a friendship because of their friend's taste in media",
+            "spice_level": "mild"
+        },
+        "middle_right": {
+            "content": "has worked or studied outside of Canada",
+            "spice_level": "innocent"
+        },
+        "bottom_left": {
+            "content": "has initiated a breakup",
+            "spice_level": "spicy"
+        },
+        "bottom_middle": {
+            "content": "has interacted with a celebrity IRL",
+            "spice_level": "mild"
+        },
+        "bottom_right": {
+            "content": "does not work in the field they envisioned as a child",
             "spice_level": "mild"
         }
     },
     "12": {
-        "bottom_left": {
-            "content": "lost an important possession and managed to recover it after at least a day",
-            "spice_level": "mild"
-        },
-        "bottom_middle": {
-            "content": "has been in or currently is in a long distance relationship",
-            "spice_level": "mild"
-        },
-        "bottom_right": {
-            "content": "has experienced going from \"friends to lovers\" with someone",
-            "spice_level": "spicy"
-        },
-        "centre": {
-            "content": "bikes to work",
-            "spice_level": "innocent"
-        },
-        "middle_left": {
-            "content": "has cut off someone they once called a friend from their life",
-            "spice_level": "spicy"
-        },
-        "middle_right": {
-            "content": "has initiated a breakup",
-            "spice_level": "spicy"
-        },
         "top_left": {
-            "content": "has a niche hobby",
-            "spice_level": "mild"
+            "content": "had a negative experience with a psychoactive drug",
+            "spice_level": "spicy"
         },
         "top_middle": {
-            "content": "knows at least three programming languages",
-            "spice_level": "innocent"
-        },
-        "top_right": {
-            "content": "arrived at this party via the TTC",
-            "spice_level": "innocent"
-        }
-    },
-    "13": {
-        "bottom_left": {
-            "content": "has been in or currently is in a long distance relationship",
-            "spice_level": "mild"
-        },
-        "bottom_middle": {
-            "content": "has been to at least one rave of ambiguous legality",
-            "spice_level": "mild"
-        },
-        "bottom_right": {
-            "content": "is an aunt or uncle",
-            "spice_level": "innocent"
-        },
-        "centre": {
-            "content": "engaged in sexual intercourse outside of the home",
-            "spice_level": "spicy"
-        },
-        "middle_left": {
-            "content": "has peeped at the contents of their partner's phone",
-            "spice_level": "spicy"
-        },
-        "middle_right": {
             "content": "has the patience to spend more than 3 hours cooking a single dish",
             "spice_level": "innocent"
         },
-        "top_left": {
-            "content": "is having second thoughts about their choice in career",
-            "spice_level": "spicy"
-        },
-        "top_middle": {
-            "content": "has been on a blind date",
-            "spice_level": "mild"
-        },
         "top_right": {
-            "content": "has watched more than 100 episodes of a single anime",
-            "spice_level": "innocent"
-        }
-    },
-    "14": {
-        "bottom_left": {
-            "content": "has participated in a protest or demonstration",
-            "spice_level": "mild"
-        },
-        "bottom_middle": {
-            "content": "engaged in sexual intercourse outside of the home",
-            "spice_level": "spicy"
-        },
-        "bottom_right": {
             "content": "goes to therapy",
             "spice_level": "spicy"
         },
-        "centre": {
-            "content": "is a regular cannabis enjoyer",
-            "spice_level": "mild"
-        },
         "middle_left": {
-            "content": "identifies as \"kinky\"",
-            "spice_level": "spicy"
+            "content": "likes natural wine",
+            "spice_level": "innocent"
+        },
+        "centre": {
+            "content": "reconsidered a friendship because of their friend's taste in media",
+            "spice_level": "mild"
         },
         "middle_right": {
-            "content": "worked in the service industry",
-            "spice_level": "innocent"
-        },
-        "top_left": {
-            "content": "does not drink alcohol or do drugs",
-            "spice_level": "mild"
-        },
-        "top_middle": {
-            "content": "has read at least 2 books this year",
-            "spice_level": "innocent"
-        },
-        "top_right": {
-            "content": "has seen at least one movie at TIFF Lightbox",
-            "spice_level": "innocent"
-        }
-    },
-    "15": {
-        "bottom_left": {
-            "content": "has been kicked out of an establishment",
-            "spice_level": "mild"
-        },
-        "bottom_middle": {
-            "content": "has a negative experience with a psychoactive drug",
-            "spice_level": "spicy"
-        },
-        "bottom_right": {
             "content": "has worked or studied outside of Canada",
             "spice_level": "innocent"
         },
-        "centre": {
-            "content": "is a regular cannabis enjoyer",
-            "spice_level": "mild"
-        },
-        "middle_left": {
-            "content": "can play a musical instrument",
-            "spice_level": "innocent"
-        },
-        "middle_right": {
-            "content": "knows at least three programming languages",
-            "spice_level": "innocent"
-        },
-        "top_left": {
-            "content": "underwent a major surgical procedure within the last five eyars",
-            "spice_level": "mild"
-        },
-        "top_middle": {
-            "content": "has been to a strip club or sex club",
-            "spice_level": "spicy"
-        },
-        "top_right": {
-            "content": "faked being an expert on a topic they know nothing about",
-            "spice_level": "spicy"
-        }
-    },
-    "16": {
-        "bottom_left": {
-            "content": "does not work in the field they envisioned as a child",
-            "spice_level": "mild"
-        },
-        "bottom_middle": {
-            "content": "has participated in a protest or demonstration",
-            "spice_level": "mild"
-        },
-        "bottom_right": {
-            "content": "has cut off someone they once called a friend from their life",
-            "spice_level": "spicy"
-        },
-        "centre": {
-            "content": "has a negative experience with a psychoactive drug",
-            "spice_level": "spicy"
-        },
-        "middle_left": {
-            "content": "did NOT study engineering",
-            "spice_level": "innocent"
-        },
-        "middle_right": {
-            "content": "participated in a Dry January",
-            "spice_level": "innocent"
-        },
-        "top_left": {
-            "content": "currently hates their job",
-            "spice_level": "mild"
-        },
-        "top_middle": {
-            "content": "has worked or studied outside of Canada",
-            "spice_level": "innocent"
-        },
-        "top_right": {
-            "content": "is having second thoughts about their choice in career",
-            "spice_level": "spicy"
-        }
-    },
-    "17": {
-        "bottom_left": {
-            "content": "owns a residential property",
-            "spice_level": "mild"
-        },
-        "bottom_middle": {
-            "content": "practices BDSM and/or ethical non-monogamy (they do not have to specify which)",
-            "spice_level": "spicy"
-        },
-        "bottom_right": {
-            "content": "has skiied or snowboarded since the beginning of the season",
-            "spice_level": "innocent"
-        },
-        "centre": {
-            "content": "is an aunt or uncle",
-            "spice_level": "innocent"
-        },
-        "middle_left": {
-            "content": "has done any of the following drugs: ketamine, LSD, cocaine, MDMA, DMT",
-            "spice_level": "spicy"
-        },
-        "middle_right": {
-            "content": "currently hates their job",
-            "spice_level": "mild"
-        },
-        "top_left": {
-            "content": "has read at least 2 books this year",
-            "spice_level": "innocent"
-        },
-        "top_middle": {
-            "content": "met their current partner on a dating app",
-            "spice_level": "mild"
-        },
-        "top_right": {
-            "content": "has participated in someone's intervention",
-            "spice_level": "spicy"
-        }
-    },
-    "18": {
-        "bottom_left": {
-            "content": "openly does not identify as heterosexual",
-            "spice_level": "mild"
-        },
-        "bottom_middle": {
-            "content": "is not on good terms with their parents. Why?",
-            "spice_level": "spicy"
-        },
-        "bottom_right": {
-            "content": "has a negative experience with a psychoactive drug",
-            "spice_level": "spicy"
-        },
-        "centre": {
-            "content": "has a pet",
-            "spice_level": "innocent"
-        },
-        "middle_left": {
-            "content": "has played a video game for more than four hours in a single session",
-            "spice_level": "innocent"
-        },
-        "middle_right": {
-            "content": "does not work in the field they envisioned as a child",
-            "spice_level": "mild"
-        },
-        "top_left": {
-            "content": "has a revenue generating side hustle",
-            "spice_level": "innocent"
-        },
-        "top_middle": {
-            "content": "has a niche hobby",
-            "spice_level": "mild"
-        },
-        "top_right": {
-            "content": "practices BDSM and/or ethical non-monogamy (they do not have to specify which)",
-            "spice_level": "spicy"
-        }
-    },
-    "19": {
         "bottom_left": {
             "content": "has initiated a breakup",
             "spice_level": "spicy"
         },
         "bottom_middle": {
-            "content": "engaged in sexual intercourse outside of the home",
-            "spice_level": "spicy"
+            "content": "has interacted with a celebrity IRL",
+            "spice_level": "mild"
         },
         "bottom_right": {
-            "content": "has a negative experience with a psychoactive drug",
+            "content": "does not work in the field they envisioned as a child",
+            "spice_level": "mild"
+        }
+    },
+    "13": {
+        "top_left": {
+            "content": "had a negative experience with a psychoactive drug",
             "spice_level": "spicy"
         },
-        "centre": {
-            "content": "worked in the service industry",
-            "spice_level": "innocent"
-        },
-        "middle_left": {
-            "content": "has seen at least one movie at TIFF Lightbox",
-            "spice_level": "innocent"
-        },
-        "middle_right": {
-            "content": "has researched someone's LinkedIn prior to a date",
-            "spice_level": "mild"
-        },
-        "top_left": {
-            "content": "identifies as an introvert",
-            "spice_level": "mild"
-        },
         "top_middle": {
-            "content": "is in a long term relationship of more than two years",
+            "content": "has the patience to spend more than 3 hours cooking a single dish",
             "spice_level": "innocent"
         },
         "top_right": {
-            "content": "has been on a blind date",
+            "content": "goes to therapy",
+            "spice_level": "spicy"
+        },
+        "middle_left": {
+            "content": "likes natural wine",
+            "spice_level": "innocent"
+        },
+        "centre": {
+            "content": "reconsidered a friendship because of their friend's taste in media",
+            "spice_level": "mild"
+        },
+        "middle_right": {
+            "content": "has worked or studied outside of Canada",
+            "spice_level": "innocent"
+        },
+        "bottom_left": {
+            "content": "has initiated a breakup",
+            "spice_level": "spicy"
+        },
+        "bottom_middle": {
+            "content": "has interacted with a celebrity IRL",
+            "spice_level": "mild"
+        },
+        "bottom_right": {
+            "content": "does not work in the field they envisioned as a child",
+            "spice_level": "mild"
+        }
+    },
+    "14": {
+        "top_left": {
+            "content": "had a negative experience with a psychoactive drug",
+            "spice_level": "spicy"
+        },
+        "top_middle": {
+            "content": "has the patience to spend more than 3 hours cooking a single dish",
+            "spice_level": "innocent"
+        },
+        "top_right": {
+            "content": "goes to therapy",
+            "spice_level": "spicy"
+        },
+        "middle_left": {
+            "content": "likes natural wine",
+            "spice_level": "innocent"
+        },
+        "centre": {
+            "content": "reconsidered a friendship because of their friend's taste in media",
+            "spice_level": "mild"
+        },
+        "middle_right": {
+            "content": "has worked or studied outside of Canada",
+            "spice_level": "innocent"
+        },
+        "bottom_left": {
+            "content": "has initiated a breakup",
+            "spice_level": "spicy"
+        },
+        "bottom_middle": {
+            "content": "has interacted with a celebrity IRL",
+            "spice_level": "mild"
+        },
+        "bottom_right": {
+            "content": "does not work in the field they envisioned as a child",
+            "spice_level": "mild"
+        }
+    },
+    "15": {
+        "top_left": {
+            "content": "had a negative experience with a psychoactive drug",
+            "spice_level": "spicy"
+        },
+        "top_middle": {
+            "content": "has the patience to spend more than 3 hours cooking a single dish",
+            "spice_level": "innocent"
+        },
+        "top_right": {
+            "content": "goes to therapy",
+            "spice_level": "spicy"
+        },
+        "middle_left": {
+            "content": "likes natural wine",
+            "spice_level": "innocent"
+        },
+        "centre": {
+            "content": "reconsidered a friendship because of their friend's taste in media",
+            "spice_level": "mild"
+        },
+        "middle_right": {
+            "content": "has worked or studied outside of Canada",
+            "spice_level": "innocent"
+        },
+        "bottom_left": {
+            "content": "has initiated a breakup",
+            "spice_level": "spicy"
+        },
+        "bottom_middle": {
+            "content": "has interacted with a celebrity IRL",
+            "spice_level": "mild"
+        },
+        "bottom_right": {
+            "content": "does not work in the field they envisioned as a child",
+            "spice_level": "mild"
+        }
+    },
+    "16": {
+        "top_left": {
+            "content": "had a negative experience with a psychoactive drug",
+            "spice_level": "spicy"
+        },
+        "top_middle": {
+            "content": "has the patience to spend more than 3 hours cooking a single dish",
+            "spice_level": "innocent"
+        },
+        "top_right": {
+            "content": "goes to therapy",
+            "spice_level": "spicy"
+        },
+        "middle_left": {
+            "content": "likes natural wine",
+            "spice_level": "innocent"
+        },
+        "centre": {
+            "content": "reconsidered a friendship because of their friend's taste in media",
+            "spice_level": "mild"
+        },
+        "middle_right": {
+            "content": "has worked or studied outside of Canada",
+            "spice_level": "innocent"
+        },
+        "bottom_left": {
+            "content": "has initiated a breakup",
+            "spice_level": "spicy"
+        },
+        "bottom_middle": {
+            "content": "has interacted with a celebrity IRL",
+            "spice_level": "mild"
+        },
+        "bottom_right": {
+            "content": "does not work in the field they envisioned as a child",
+            "spice_level": "mild"
+        }
+    },
+    "17": {
+        "top_left": {
+            "content": "had a negative experience with a psychoactive drug",
+            "spice_level": "spicy"
+        },
+        "top_middle": {
+            "content": "has the patience to spend more than 3 hours cooking a single dish",
+            "spice_level": "innocent"
+        },
+        "top_right": {
+            "content": "goes to therapy",
+            "spice_level": "spicy"
+        },
+        "middle_left": {
+            "content": "likes natural wine",
+            "spice_level": "innocent"
+        },
+        "centre": {
+            "content": "reconsidered a friendship because of their friend's taste in media",
+            "spice_level": "mild"
+        },
+        "middle_right": {
+            "content": "has worked or studied outside of Canada",
+            "spice_level": "innocent"
+        },
+        "bottom_left": {
+            "content": "has initiated a breakup",
+            "spice_level": "spicy"
+        },
+        "bottom_middle": {
+            "content": "has interacted with a celebrity IRL",
+            "spice_level": "mild"
+        },
+        "bottom_right": {
+            "content": "does not work in the field they envisioned as a child",
+            "spice_level": "mild"
+        }
+    },
+    "18": {
+        "top_left": {
+            "content": "had a negative experience with a psychoactive drug",
+            "spice_level": "spicy"
+        },
+        "top_middle": {
+            "content": "has the patience to spend more than 3 hours cooking a single dish",
+            "spice_level": "innocent"
+        },
+        "top_right": {
+            "content": "goes to therapy",
+            "spice_level": "spicy"
+        },
+        "middle_left": {
+            "content": "likes natural wine",
+            "spice_level": "innocent"
+        },
+        "centre": {
+            "content": "reconsidered a friendship because of their friend's taste in media",
+            "spice_level": "mild"
+        },
+        "middle_right": {
+            "content": "has worked or studied outside of Canada",
+            "spice_level": "innocent"
+        },
+        "bottom_left": {
+            "content": "has initiated a breakup",
+            "spice_level": "spicy"
+        },
+        "bottom_middle": {
+            "content": "has interacted with a celebrity IRL",
+            "spice_level": "mild"
+        },
+        "bottom_right": {
+            "content": "does not work in the field they envisioned as a child",
+            "spice_level": "mild"
+        }
+    },
+    "19": {
+        "top_left": {
+            "content": "had a negative experience with a psychoactive drug",
+            "spice_level": "spicy"
+        },
+        "top_middle": {
+            "content": "has the patience to spend more than 3 hours cooking a single dish",
+            "spice_level": "innocent"
+        },
+        "top_right": {
+            "content": "goes to therapy",
+            "spice_level": "spicy"
+        },
+        "middle_left": {
+            "content": "likes natural wine",
+            "spice_level": "innocent"
+        },
+        "centre": {
+            "content": "reconsidered a friendship because of their friend's taste in media",
+            "spice_level": "mild"
+        },
+        "middle_right": {
+            "content": "has worked or studied outside of Canada",
+            "spice_level": "innocent"
+        },
+        "bottom_left": {
+            "content": "has initiated a breakup",
+            "spice_level": "spicy"
+        },
+        "bottom_middle": {
+            "content": "has interacted with a celebrity IRL",
+            "spice_level": "mild"
+        },
+        "bottom_right": {
+            "content": "does not work in the field they envisioned as a child",
             "spice_level": "mild"
         }
     },
     "20": {
+        "top_left": {
+            "content": "had a negative experience with a psychoactive drug",
+            "spice_level": "spicy"
+        },
+        "top_middle": {
+            "content": "has the patience to spend more than 3 hours cooking a single dish",
+            "spice_level": "innocent"
+        },
+        "top_right": {
+            "content": "goes to therapy",
+            "spice_level": "spicy"
+        },
+        "middle_left": {
+            "content": "likes natural wine",
+            "spice_level": "innocent"
+        },
+        "centre": {
+            "content": "reconsidered a friendship because of their friend's taste in media",
+            "spice_level": "mild"
+        },
+        "middle_right": {
+            "content": "has worked or studied outside of Canada",
+            "spice_level": "innocent"
+        },
         "bottom_left": {
             "content": "has initiated a breakup",
             "spice_level": "spicy"
         },
         "bottom_middle": {
-            "content": "has a revenue generating side hustle",
-            "spice_level": "innocent"
+            "content": "has interacted with a celebrity IRL",
+            "spice_level": "mild"
         },
         "bottom_right": {
-            "content": "has skiied or snowboarded since the beginning of the season",
+            "content": "does not work in the field they envisioned as a child",
+            "spice_level": "mild"
+        }
+    },
+    "21": {
+        "top_left": {
+            "content": "had a negative experience with a psychoactive drug",
+            "spice_level": "spicy"
+        },
+        "top_middle": {
+            "content": "has the patience to spend more than 3 hours cooking a single dish",
+            "spice_level": "innocent"
+        },
+        "top_right": {
+            "content": "goes to therapy",
+            "spice_level": "spicy"
+        },
+        "middle_left": {
+            "content": "likes natural wine",
             "spice_level": "innocent"
         },
         "centre": {
-            "content": "did NOT study engineering",
-            "spice_level": "innocent"
-        },
-        "middle_left": {
-            "content": "has watched other people engage in sexual intercourse",
-            "spice_level": "spicy"
+            "content": "reconsidered a friendship because of their friend's taste in media",
+            "spice_level": "mild"
         },
         "middle_right": {
-            "content": "has performed in front of an audience",
+            "content": "has worked or studied outside of Canada",
+            "spice_level": "innocent"
+        },
+        "bottom_left": {
+            "content": "has initiated a breakup",
+            "spice_level": "spicy"
+        },
+        "bottom_middle": {
+            "content": "has interacted with a celebrity IRL",
             "spice_level": "mild"
         },
-        "top_left": {
-            "content": "openly does not identify as heterosexual",
+        "bottom_right": {
+            "content": "does not work in the field they envisioned as a child",
             "spice_level": "mild"
+        }
+    },
+    "22": {
+        "top_left": {
+            "content": "had a negative experience with a psychoactive drug",
+            "spice_level": "spicy"
         },
         "top_middle": {
-            "content": "has been to at least one rave of ambiguous legality",
-            "spice_level": "mild"
+            "content": "has the patience to spend more than 3 hours cooking a single dish",
+            "spice_level": "innocent"
         },
         "top_right": {
-            "content": "is still friends with an ex-partner",
+            "content": "goes to therapy",
             "spice_level": "spicy"
+        },
+        "middle_left": {
+            "content": "likes natural wine",
+            "spice_level": "innocent"
+        },
+        "centre": {
+            "content": "reconsidered a friendship because of their friend's taste in media",
+            "spice_level": "mild"
+        },
+        "middle_right": {
+            "content": "has worked or studied outside of Canada",
+            "spice_level": "innocent"
+        },
+        "bottom_left": {
+            "content": "has initiated a breakup",
+            "spice_level": "spicy"
+        },
+        "bottom_middle": {
+            "content": "has interacted with a celebrity IRL",
+            "spice_level": "mild"
+        },
+        "bottom_right": {
+            "content": "does not work in the field they envisioned as a child",
+            "spice_level": "mild"
+        }
+    },
+    "23": {
+        "top_left": {
+            "content": "had a negative experience with a psychoactive drug",
+            "spice_level": "spicy"
+        },
+        "top_middle": {
+            "content": "has the patience to spend more than 3 hours cooking a single dish",
+            "spice_level": "innocent"
+        },
+        "top_right": {
+            "content": "goes to therapy",
+            "spice_level": "spicy"
+        },
+        "middle_left": {
+            "content": "likes natural wine",
+            "spice_level": "innocent"
+        },
+        "centre": {
+            "content": "reconsidered a friendship because of their friend's taste in media",
+            "spice_level": "mild"
+        },
+        "middle_right": {
+            "content": "has worked or studied outside of Canada",
+            "spice_level": "innocent"
+        },
+        "bottom_left": {
+            "content": "has initiated a breakup",
+            "spice_level": "spicy"
+        },
+        "bottom_middle": {
+            "content": "has interacted with a celebrity IRL",
+            "spice_level": "mild"
+        },
+        "bottom_right": {
+            "content": "does not work in the field they envisioned as a child",
+            "spice_level": "mild"
+        }
+    },
+    "24": {
+        "top_left": {
+            "content": "had a negative experience with a psychoactive drug",
+            "spice_level": "spicy"
+        },
+        "top_middle": {
+            "content": "has the patience to spend more than 3 hours cooking a single dish",
+            "spice_level": "innocent"
+        },
+        "top_right": {
+            "content": "goes to therapy",
+            "spice_level": "spicy"
+        },
+        "middle_left": {
+            "content": "likes natural wine",
+            "spice_level": "innocent"
+        },
+        "centre": {
+            "content": "reconsidered a friendship because of their friend's taste in media",
+            "spice_level": "mild"
+        },
+        "middle_right": {
+            "content": "has worked or studied outside of Canada",
+            "spice_level": "innocent"
+        },
+        "bottom_left": {
+            "content": "has initiated a breakup",
+            "spice_level": "spicy"
+        },
+        "bottom_middle": {
+            "content": "has interacted with a celebrity IRL",
+            "spice_level": "mild"
+        },
+        "bottom_right": {
+            "content": "does not work in the field they envisioned as a child",
+            "spice_level": "mild"
+        }
+    },
+    "25": {
+        "top_left": {
+            "content": "had a negative experience with a psychoactive drug",
+            "spice_level": "spicy"
+        },
+        "top_middle": {
+            "content": "has the patience to spend more than 3 hours cooking a single dish",
+            "spice_level": "innocent"
+        },
+        "top_right": {
+            "content": "goes to therapy",
+            "spice_level": "spicy"
+        },
+        "middle_left": {
+            "content": "likes natural wine",
+            "spice_level": "innocent"
+        },
+        "centre": {
+            "content": "reconsidered a friendship because of their friend's taste in media",
+            "spice_level": "mild"
+        },
+        "middle_right": {
+            "content": "has worked or studied outside of Canada",
+            "spice_level": "innocent"
+        },
+        "bottom_left": {
+            "content": "has initiated a breakup",
+            "spice_level": "spicy"
+        },
+        "bottom_middle": {
+            "content": "has interacted with a celebrity IRL",
+            "spice_level": "mild"
+        },
+        "bottom_right": {
+            "content": "does not work in the field they envisioned as a child",
+            "spice_level": "mild"
         }
     }
 }
