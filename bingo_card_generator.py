@@ -1,6 +1,7 @@
 import random
 import json
 
+SEED = 19980305
 def fill_list_from_file(filename):
     output_list = []
     with open(filename) as file: 
@@ -34,6 +35,7 @@ def generate_bingo_card(master_dict):
     card_dict = {}
     card_list = []
 
+    random.seed(SEED) 
     for category, list in master_dict.items(): 
         card_dict.update({category : random.sample(range(len(list)-1), k=3)})
 
