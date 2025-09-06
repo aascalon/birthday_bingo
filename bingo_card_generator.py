@@ -84,7 +84,7 @@ def _parse_args():
         '--seed',
         type=int,
         default=None,
-        help='Seed for generating the cards. Suggestion: use your birthday!'
+        help='Seed for generating the cards. Suggestion: use a combination of your birthday and age!'
     )
 
     return parser.parse_args()
