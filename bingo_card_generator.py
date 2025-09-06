@@ -31,23 +31,22 @@ def generate_bingo_card(master_dict):
         'bottom_right',
     ] 
     card = dict.fromkeys(positions)
-    card_dict = {}
     card_list = []
-
-     
-    for category, list in master_dict.items(): 
-        card_dict.update({category : random.sample(range(len(list)-1), k=3)})
-
-    for spice_level, indices in card_dict.items(): 
-        for idx in range(len(indices)): 
-            rand_idx = indices[idx]
-            indices[idx] = {"content": master_dict[spice_level][rand_idx], 
-                            "spice_level" : spice_level 
-                            }
-            card_list.append(indices[idx])
+    
+    # Create the list of questions on the card
+    for category, questions in master_dict.items(): 
+        selected_questions = random.sample(questions, 3)
+        
+        for i in range(len(selected_questions)):
+            card_list.append((selected_questions[i], category))
+    
     random.shuffle(card_list)
+
     for index, (key, value) in enumerate(card.items()): 
-        card[key] = card_list[index]
+        bingo_square = {"content" : card_list[index][0],
+                        "spice_level": card_list[index][1]
+                        }
+        card[key] = bingo_square
 
     return card
 
@@ -68,14 +67,10 @@ if __name__ == "__main__":
                     'mild.txt', 
                     'spicy.txt']
     bingo_cards_dict = {}
-    for i in range(player_count):
-        bingo_cards_dict.update({i+1 : None})
     master_dict = generate_master_dict(master_files)
-    # bingo_cards = generate_unique_bingo_cards(num_cards, master_dict)
-    
-    # Store each card with an index in the dictionary
     for i in range(player_count):
-        bingo_cards_dict[i+1] = generate_bingo_card(master_dict)
+        bingo_cards_dict.update({i+1 : generate_bingo_card(master_dict)})
+    
     # Write the full dictionary to JSON
     with open(filename, 'w') as out_file:
         json.dump(bingo_cards_dict, out_file, indent=4)
