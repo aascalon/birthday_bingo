@@ -16,12 +16,12 @@ def generate_master_dict(input_files):
     """Takes in an array of text files and generates the master dictionary of possible square contents"""
     master_dict = {}
     for file in input_files: 
-        master_dict.update({file[:-4] : fill_list_from_file(file)})
+        category_name = file.stem
+        master_dict.update({category_name: fill_list_from_file(file)})
     
     return master_dict
 
 def generate_bingo_card(master_dict, seed):
-    random.seed(seed)
 
     positions =  [
         'top_left',
@@ -87,24 +87,32 @@ def _parse_args():
         help='Seed for generating the cards. Suggestion: use a combination of your birthday and age!'
     )
 
+    parser.add_argument(
+        '--questions',
+        nargs=3,
+        type=pathlib.Path,
+        metavar=('file1', 'file2', 'file3'),
+        default=['question_bank/innocent.txt','question_bank/mild.txt','question_bank/spicy.txt']
+    )
     return parser.parse_args()
 
 if __name__ == "__main__":
     args = _parse_args()
 
     filename = args.file
-    game_seed = args.seed
     filename.parent.mkdir(parents=True, exist_ok=True)
+
+    game_seed = args.seed
+    master_files = args.questions
     
-    
-    master_files = ['innocent.txt',
-                    'mild.txt', 
-                    'spicy.txt']
     bingo_cards_dict = {}
     master_dict = generate_master_dict(master_files)
     for i in range(args.player_count):
-        bingo_cards_dict.update({i+1 : generate_bingo_card(master_dict, game_seed)})
-        game_seed += i
+        bingo_cards_dict.update({i+1 : generate_bingo_card(master_dict, game_seed)}) # one-based indexing
+        if game_seed is not None:
+            game_seed += i
+            random.seed(game_seed)
+
     
     # Write the full dictionary to JSON
     with open(filename, 'w') as out_file:
