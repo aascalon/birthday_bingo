@@ -1,5 +1,7 @@
 import random
 import json
+import argparse
+import pathlib
 
 def fill_list_from_file(filename):
     output_list = []
@@ -18,7 +20,9 @@ def generate_master_dict(input_files):
     
     return master_dict
 
-def generate_bingo_card(master_dict):
+def generate_bingo_card(master_dict, seed):
+    random.seed(seed)
+
     positions =  [
         'top_left',
         'top_middle',
@@ -58,23 +62,54 @@ def generate_unique_bingo_cards(count, master_dict):
 
     return [list(card) for card in unique_cards]
 
+def _parse_args():
+    parser = argparse.ArgumentParser(description="Generates a JSON of inquisitive bingo cards")
+   
+    parser.add_argument(
+        'player_count',
+        type=int,
+        help='Number of bingo cards to generate'
+    )
+
+    parser.add_argument(
+        '-f',
+        '--file',
+        type=pathlib.Path,
+        default='bingo_cards.json',
+        help='Output JSON file path'
+    )
+
+    parser.add_argument(
+        '-s',
+        '--seed',
+        type=int,
+        default=None,
+        help='Seed for generating the cards. Suggestion: use your birthday!'
+    )
+
+    return parser.parse_args()
 
 if __name__ == "__main__":
-    filename = 'bingo_cards.json'
+    args = _parse_args()
 
-    player_count = int(input('How many people are playing?\n'))  # Change this to generate more cards
+    filename = args.file
+    game_seed = args.seed
+    filename.parent.mkdir(parents=True, exist_ok=True)
+    
+    
     master_files = ['innocent.txt',
                     'mild.txt', 
                     'spicy.txt']
     bingo_cards_dict = {}
     master_dict = generate_master_dict(master_files)
-    for i in range(player_count):
-        bingo_cards_dict.update({i+1 : generate_bingo_card(master_dict)})
+    for i in range(args.player_count):
+        bingo_cards_dict.update({i+1 : generate_bingo_card(master_dict, game_seed)})
+        game_seed += i
     
     # Write the full dictionary to JSON
     with open(filename, 'w') as out_file:
         json.dump(bingo_cards_dict, out_file, indent=4)
 
-    print(f"Successfully saved {player_count} bingo cards to {filename}.")
+    print(f"Successfully saved {args.player_count} bingo cards to {filename}.")
 
 
