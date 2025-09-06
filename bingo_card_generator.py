@@ -54,13 +54,17 @@ def generate_bingo_card(master_dict, seed):
 
     return card
 
-def generate_unique_bingo_cards(count, master_dict):
-    unique_cards = set()
-    while len(unique_cards) < count:
-        card = generate_bingo_card(master_dict)  # Convert list to tuple for set storage
-        unique_cards.add(card)
+def generate_unique_bingo_cards(player_count: int, master_dict, game_seed):
+    all_bingo_cards = {}
 
-    return [list(card) for card in unique_cards]
+    for i in range(player_count):
+        random.seed(game_seed)
+        all_bingo_cards.update({i+1 : generate_bingo_card(master_dict, game_seed)}) # one-based indexing
+        if game_seed is not None:
+            game_seed += i
+            
+    return all_bingo_cards  
+
 
 def _parse_args():
     parser = argparse.ArgumentParser(description="Generates a JSON of inquisitive bingo cards")
@@ -84,7 +88,7 @@ def _parse_args():
         '--seed',
         type=int,
         default=None,
-        help='Seed for generating the cards. Suggestion: use a combination of your birthday and age!'
+        help='Seed for generating the cards. Fun suggestion: use a combination of your birthday and age!'
     )
 
     parser.add_argument(
@@ -104,19 +108,14 @@ if __name__ == "__main__":
 
     game_seed = args.seed
     master_files = args.questions
+    player_count = args.player_count
     
-    bingo_cards_dict = {}
     master_dict = generate_master_dict(master_files)
-    for i in range(args.player_count):
-        bingo_cards_dict.update({i+1 : generate_bingo_card(master_dict, game_seed)}) # one-based indexing
-        if game_seed is not None:
-            game_seed += i
-            random.seed(game_seed)
+    all_bingo_cards = generate_unique_bingo_cards(player_count, master_dict, game_seed)
 
-    
     # Write the full dictionary to JSON
     with open(filename, 'w') as out_file:
-        json.dump(bingo_cards_dict, out_file, indent=4)
+        json.dump(all_bingo_cards, out_file, indent=4)
 
     print(f"Successfully saved {args.player_count} bingo cards to {filename}.")
 
