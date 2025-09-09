@@ -2,12 +2,20 @@
 """
 Bingo Card PDF Generator (Courier font, wider cells, aligned title/instructions)
 
+USAGE:
+    python bingo_card_pdf_maker.py data.json -t "My Party Title" -d "Custom instructions here"
+    python bingo_card_pdf_maker.py data.json --title "Birthday Bingo" --description "Find people who match these descriptions!"
+    python bingo_card_pdf_maker.py data.json -o output.pdf -t "Event Bingo" -d "Get signatures for each square"
+    python bingo_card_pdf_maker.py data.json  # Uses default title and description
+
+FEATURES:
 - Uses Courier font for all text.
 - Title is bold Courier.
 - Instructions are italic Courier and 4pt smaller than title.
 - Title and description span the same width as the card grid.
 - Wider cell width (3.7 * inch / 3).
 - More spacing between the two cards.
+- Customizable title and description via command line arguments.
 """
 
 import json
@@ -54,9 +62,11 @@ def convert_card_to_grid(card_data):
 
 
 class BingoCardFlowable(Flowable):
-    def __init__(self, card_data, width=4.5*inch, height=6.0*inch):
+    def __init__(self, card_data, title, description, width=4.5*inch, height=6.0*inch):
         Flowable.__init__(self)
         self.card_data = card_data
+        self.title = title
+        self.description = description
         self.width = width
         self.height = height
         self.cell_width = 3.7 * inch / 3  # wider cells
@@ -73,7 +83,7 @@ class BingoCardFlowable(Flowable):
             alignment=TA_CENTER,
             spaceAfter=6
         )
-        title = Paragraph("Meet the Lovely People @ Lulu's B-day", title_style)
+        title = Paragraph(self.title, title_style)
         w, h = title.wrap(grid_total_width, self.height)
         title.drawOn(self.canv, 0.1*inch, self.height - h)
 
@@ -81,17 +91,12 @@ class BingoCardFlowable(Flowable):
         instr_style = ParagraphStyle(
             'Instructions',
             fontName='Courier-Oblique',
-            fontSize=9,  # 4 pts smaller than title (16 -> 12)
+            fontSize=12,  # 4 pts smaller than title (16 -> 12)
             alignment=TA_CENTER,
             leading=14,
             spaceAfter=12
         )
-        instructions = (
-            'Find party-goers who identify with the following descriptions, '
-            'and ask them to sign to "stamp" the square. No one can sign '
-            'a single card twice! See Lulu after all squares are completed for maybe a prize...'
-        )
-        instr = Paragraph(instructions, instr_style)
+        instr = Paragraph(self.description, instr_style)
         iw, ih = instr.wrap(grid_total_width, self.height)
         instr.drawOn(self.canv, 0.1*inch, self.height - h - ih - 10)
 
@@ -138,12 +143,12 @@ class BingoCardFlowable(Flowable):
                     p.drawOn(self.canv, x + (self.cell_width - w) / 2, y + (self.cell_height - h) / 2)
 
 
-def create_side_by_side_cards(card1_data, card2_data=None):
+def create_side_by_side_cards(card1_data, card2_data=None, title="Bingo Card", description="Complete the card!"):
     if card2_data is None:
         card2_data = [["", "", ""], ["", "", ""], ["", "", ""]]
 
-    card1_flowable = BingoCardFlowable(card1_data)
-    card2_flowable = BingoCardFlowable(card2_data)
+    card1_flowable = BingoCardFlowable(card1_data, title, description)
+    card2_flowable = BingoCardFlowable(card2_data, title, description)
 
     table_data = [[card1_flowable, card2_flowable]]
     # more spacing between cards
@@ -159,9 +164,18 @@ def create_side_by_side_cards(card1_data, card2_data=None):
     return table
 
 
-def generate_bingo_pdf(json_path, output_path=None):
+def generate_bingo_pdf(json_path, output_path=None, title=None, description=None):
     bingo_data = load_bingo_data(json_path)
     validate_bingo_data(bingo_data)
+
+    # Default values if not provided
+    if title is None:
+        title = "Meet the Lovely People @ Lulu's B-day"
+    
+    if description is None:
+        description = ('Find party-goers who identify with the following descriptions, '
+                      'and ask them to sign to "stamp" the square. No one can sign '
+                      'a single card twice! See Lulu after all squares are completed for maybe a prize...')
 
     card_grids = [convert_card_to_grid(bingo_data[num]) for num in sorted(bingo_data.keys(), key=lambda x: int(x))]
 
@@ -181,24 +195,43 @@ def generate_bingo_pdf(json_path, output_path=None):
     for i in range(0, len(card_grids), 2):
         card1_data = card_grids[i]
         card2_data = card_grids[i+1] if i+1 < len(card_grids) else None
-        story.append(create_side_by_side_cards(card1_data, card2_data))
+        story.append(create_side_by_side_cards(card1_data, card2_data, title, description))
         if i + 2 < len(card_grids):
             story.append(PageBreak())
 
     try:
         doc.build(story)
         print(f"Successfully generated PDF: {output_path}")
+        if title:
+            print(f"Title: {title}")
+        if description:
+            print(f"Description: {description[:50]}{'...' if len(description) > 50 else ''}")
     except Exception as e:
         print(f"Error generating PDF: {e}")
         sys.exit(1)
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Generate PDF bingo cards from JSON data")
+    parser = argparse.ArgumentParser(
+        description="Generate PDF bingo cards from JSON data with customizable title and description",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  python bingo_card_pdf_maker.py data.json
+  python bingo_card_pdf_maker.py data.json -t "Birthday Bingo"
+  python bingo_card_pdf_maker.py data.json -t "Party Bingo" -d "Find people matching these descriptions!"
+  python bingo_card_pdf_maker.py data.json -o custom.pdf -t "Event Bingo" -d "Get signatures!"
+        """
+    )
+    
     parser.add_argument('json_file', help='Path to JSON file containing bingo card data')
     parser.add_argument('-o', '--output', help='Output PDF filename (optional)')
+    parser.add_argument('-t', '--title', help='Custom title for the bingo cards (optional)')
+    parser.add_argument('-d', '--description', help='Custom description/instructions for the bingo cards (optional)')
+    
     args = parser.parse_args()
-    generate_bingo_pdf(args.json_file, args.output)
+    
+    generate_bingo_pdf(args.json_file, args.output, args.title, args.description)
 
 
 if __name__ == "__main__":
