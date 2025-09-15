@@ -58,6 +58,8 @@ spicy.txt:
 import random
 import json
 import argparse
+import pathlib
+import argparse
 
 def fill_list_from_file(filename):
     output_list = []
@@ -68,19 +70,21 @@ def fill_list_from_file(filename):
                 output_list.append(stripped_line)
     return output_list
 
-def generate_master_dict(input_files): 
+def generate_master_dict(input_files: pathlib.Path): 
     """Takes in an array of text files and generates the master dictionary of possible square contents"""
     master_dict = {}
     for file in input_files: 
-        master_dict.update({file[:-4] : fill_list_from_file(file)})
+        
+        category_name = file.stem
+        master_dict.update({category_name: fill_list_from_file(file)})
     
     return master_dict
 
-def generate_bingo_card(master_dict, used_prompts=None):
+def generate_bingo_card(master_dict, used_prompts=None ):
     """Generate a bingo card, optionally tracking used prompts for uniqueness"""
     if used_prompts is None:
         used_prompts = set()
-    
+
     positions = [
         'top_left',
         'top_middle', 
@@ -125,22 +129,24 @@ def generate_bingo_card(master_dict, used_prompts=None):
     
     # Shuffle and assign to positions
     random.shuffle(card_list)
+
     for index, (key, value) in enumerate(card.items()):
+        bingo_square = card_list[index]
         if index < len(card_list):
-            card[key] = card_list[index]
+            card[key] = bingo_square
         else:
             # Fill remaining positions with None if we run out of prompts
             card[key] = None
     
     return card
 
-def generate_unique_bingo_cards(count, master_dict, maximize_unique_prompts=False):
+def generate_unique_bingo_cards(count, master_dict, maximize_unique_prompts=False, ):
     """Generate multiple bingo cards, optionally maximizing unique prompts across all cards"""
     cards = []
     used_prompts = set() if maximize_unique_prompts else None
     
     for i in range(count):
-        card = generate_bingo_card(master_dict, used_prompts)
+        card = generate_bingo_card(master_dict, used_prompts) # one-based indexing
         cards.append(card)
     
     return cards
@@ -149,24 +155,59 @@ def count_total_available_prompts(master_dict):
     """Count total number of unique non-empty prompts available"""
     return sum(len(prompts) for prompts in master_dict.values())
 
+def _parse_args():
+    parser = argparse.ArgumentParser(description="Generates a JSON of inquisitive bingo cards")
+   
+    parser.add_argument(
+        '-n',
+        '--player-count',
+        type=int,
+        help='Number of bingo cards to generate'
+    )
+
+    parser.add_argument(
+        '-f',
+        '--file',
+        type=pathlib.Path,
+        default='bingo_cards.json',
+        help='Output JSON file path'
+    )
+
+    parser.add_argument(
+        '-s',
+        '--seed',
+        type=int,
+        default=None,
+        help='Seed for generating the cards. Fun suggestion: use a combination of your birthday and age!'
+    )
+
+    parser.add_argument(
+        '--questions',
+        nargs=3,
+        type=pathlib.Path,
+        metavar=('file1', 'file2', 'file3'),
+        default=[pathlib.Path('question_bank/innocent.txt'),
+                 pathlib.Path('question_bank/mild.txt'),
+                 pathlib.Path('question_bank/spicy.txt')]
+    )
+
+    parser.add_argument(
+        '--maximize-unique',
+        action='store_true',
+        help='Ensure maximum unique prompts across all cards (no duplicates until necessary)'
+    )
+    return parser.parse_args()
+
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Generate bingo cards from text files')
-    parser.add_argument('--maximize-unique', action='store_true', 
-                       help='Ensure maximum unique prompts across all cards (no duplicates until necessary)')
-    parser.add_argument('--player-count', type=int, 
-                       help='Number of players (will prompt if not provided)')
+    args = _parse_args()
+
+    filename = args.file
+    filename.parent.mkdir(parents=True, exist_ok=True)
+
+    game_seed = args.seed
+    master_files = args.questions
+    player_count = args.player_count
     
-    args = parser.parse_args()
-    
-    filename = 'bingo_cards.json'
-    
-    # Get player count
-    if args.player_count:
-        player_count = args.player_count
-    else:
-        player_count = int(input('How many people are playing?\n'))
-    
-    master_files = ['innocent.txt', 'mild.txt', 'spicy.txt']
     master_dict = generate_master_dict(master_files)
     
     # Check if we have enough unique prompts
@@ -175,13 +216,15 @@ if __name__ == "__main__":
     
     if args.maximize_unique and prompts_needed > total_prompts:
         print(f"Warning: You need {prompts_needed} prompts for {player_count} unique cards, "
-              f"but only {total_prompts} unique prompts are available.")
+              f"but only {total_prompts} unique prompts are available.\n")
         print("Some prompts will be reused across cards.")
     
     # Generate cards
     if args.maximize_unique:
         cards_list = generate_unique_bingo_cards(player_count, master_dict, maximize_unique_prompts=True)
         bingo_cards_dict = {i+1: cards_list[i] for i in range(player_count)}
+        if game_seed is not None:
+            game_seed += 1
     else:
         bingo_cards_dict = {}
         for i in range(player_count):
@@ -191,7 +234,7 @@ if __name__ == "__main__":
     with open(filename, 'w') as out_file:
         json.dump(bingo_cards_dict, indent=4, fp=out_file)
     
-    print(f"Successfully saved {player_count} bingo cards to {filename}.")
+    print(f"Successfully saved {args.player_count} bingo cards to {filename}.")
     if args.maximize_unique:
         print("Cards generated with maximum unique prompts across all players.")
     
