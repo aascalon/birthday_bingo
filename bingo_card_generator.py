@@ -1,15 +1,17 @@
 """
 Bingo Card Generator
 
-This script generates custom bingo cards from text files containing prompts of different "spice levels".
+This script generates custom bingo cards from text files containing prompts of different categories. 
+In the provided files, each category pertains to the "spice level", i.e., how invasive the question is. 
 
 SETUP:
 ------
-1. Create text files with your bingo prompts:
+1. Create 3 text files with your bingo prompts. 1 text file per category.
    - innocent.txt: Safe/family-friendly prompts
    - mild.txt: Moderately spicy prompts  
    - spicy.txt: Bold/risqué prompts
-
+   - Note: you are welcome to make your own categories! Make sure to adhere to the guidelines below.
+   
 2. Each text file should have one prompt per line
    - Empty lines and whitespace-only lines will be ignored
    - Each card will randomly select 3 prompts from each category (9 total per card)
@@ -23,20 +25,25 @@ With command line arguments:
     python bingo_generator.py --player-count 5
     python bingo_generator.py --maximize-unique
     python bingo_generator.py --player-count 8 --maximize-unique
+    python bingo_generator.py --questions custom1.txt custom2.txt spicy.txt
+    python bingo_generator.py --seed 420
 
 ARGUMENTS:
 ----------
---player-count N        Number of bingo cards to generate
---maximize-unique       Ensure maximum unique prompts across all cards
-                       (no prompt reuse until all unique prompts are used)
+-n, --player-count N            Number of bingo cards to generate. If not given, the user will be asked interactively.
+-s, --seed S                    Custom seed, if you want to recreate the cards for some reason. Defaults to None.
+-f, --file                      Filename of the JSON containing all cards for this bingo. Defaults to bingo_cards.json
+--maximize-unique               Ensure maximum unique prompts across all cards
+                                (no prompt reuse until all unique prompts are used)
+--questions file1 file2 file3   Source files (3 must be provided). Defaults to [innocent|mild|spicy].txt
 
 OUTPUT:
 -------
 Creates 'bingo_cards.json' containing all generated cards with:
 - Each card numbered (1, 2, 3, etc.)
 - 9 positions per card (top_left, top_middle, etc.)
-- Each square contains: prompt content and spice level
-
+- Each square contains: prompt content and category (named after the source file it originates from)
+- This file can then be input into bingo_card_pdf_maker.py
 EXAMPLE FILES:
 --------------
 innocent.txt:
@@ -80,7 +87,7 @@ def generate_master_dict(input_files: pathlib.Path):
     
     return master_dict
 
-def generate_bingo_card(master_dict, used_prompts=None ):
+def generate_bingo_card(master_dict, used_prompts=None):
     """Generate a bingo card, optionally tracking used prompts for uniqueness"""
     if used_prompts is None:
         used_prompts = set()
@@ -119,7 +126,7 @@ def generate_bingo_card(master_dict, used_prompts=None ):
             selected_prompt = available_prompts[idx]
             card_entry = {
                 "content": selected_prompt,
-                "spice_level": category
+                "category": category
             }
             card_list.append(card_entry)
             
