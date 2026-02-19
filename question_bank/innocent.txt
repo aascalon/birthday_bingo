@@ -1,4 +1,4 @@
-wasn't born in Canada.
+wasn't born in Canada
 has a pet
 has travelled to at least 10 countries
 did NOT study engineering 
@@ -7,10 +7,10 @@ has read at least 2 books this year
 has seen at least one movie at TIFF Lightbox
 can play a musical instrument
 has skiied or snowboarded since the beginning of the season
-has a creative hobby and has showcased their work in public
+has a creative endeavour and has showcased their work in public
 has the patience to spend more than 3 hours cooking a single dish
 has played a video game for more than four hours in a single session
-is in a long term relationship of more than two years
+is in a long term relationship of more than three years
 unironically enjoys pineapple on pizza
 likes natural wine
 worked in the service industry
@@ -21,8 +21,72 @@ has a revenue generating side hustle
 has worked or studied outside of Canada
 bikes to work
 knows at least three programming languages
-lost mobility as a result of an injury sustained during physical activity
-has been a bridsmaid or groomsman
+has been a bridesmaid or groomsman
 received an illness from eating something
 discovered they were allergic/sensitive to something in adulthood
 is addicted to something that isn't a drug
+identifies as queer
+lived in Southeast Asia
+knits or crochets
+doesn't know how to drive
+doesn't know how to ride a biked
+works in a creative field
+is unemployed
+has participated in a mass sporting event (bike ride/run/triathlon etc.)
+moved to a place where they didn't know anyone 
+goes to Pilates classes
+goes to spin classes
+isn't religious
+has a Letterboxd account
+is interested in 20th century philospophy
+failed cooking a dish so spectactularly that it was inedible and had to be discarded
+has a Duolingo streak of more than 30 days
+has seen a live comedy show recently
+has seen movies at the Toronto International Film Festival
+has been to a film festival that wasn't TIFF
+went camping within the last year
+is/used to be married
+has or has had a sourdough starter
+volunteers for a charitable organisation
+has been to a Blue Jays game
+had been to a Raptors game
+has been to a Toronto F.C. game 
+has a multi-step skincare routine
+owns multiple gaming consoles
+spent more than $1500 on their gaming PC
+has a cuisine they can't stand
+can speak two non-English languages
+has has a manual labour job
+has worked in academia
+took longer than usual to finish their degree
+didn't know the meaning of a word for the longest time
+does electronics as a hobby
+keeps a journal
+hurt themselves playing a sport 
+can squat their body weight
+has worked more than 10 hours in a single day within the past year
+experienced gastrointestinal tummy troubles on holiday
+is ashamed about a fandom they were in as a teenager
+wrote fanfiction and published it online
+reads fanfiction
+loves watching hour or longer video essays on YouTube
+goes skateboarding
+has a Blu-Ray collection
+goes to mosh pits and gets their shit utterly rocked
+loves playing table tennis
+has a graduate degree
+can't stop vaping
+can do minor repairs on their bike
+makes music as a hobby
+has trained a machine learning model on their personal computer
+doesn't work in tech
+is a Star Trek fan
+spent too much time on tumblr as a teen
+was a fan of Supernatural/Doctor Who/Sherlock back in the day
+is obsessed with Heated Rivalry
+has a low spice tolerance
+was turned off from engaging in a work of art due to insufferable fans
+got depressed after finishing a movie/TV show
+has visited Japan within the last five years
+spent way too much money on a single vacation
+has gambled at a casino
