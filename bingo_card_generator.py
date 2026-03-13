@@ -169,6 +169,7 @@ def _parse_args():
         '-n',
         '--player-count',
         type=int,
+        required=True,
         help='Number of bingo cards to generate'
     )
 
@@ -176,7 +177,7 @@ def _parse_args():
         '-f',
         '--file',
         type=pathlib.Path,
-        default='bingo_cards.json',
+        default=None,
         help='Output JSON file path'
     )
 
@@ -208,7 +209,14 @@ def _parse_args():
 if __name__ == "__main__":
     args = _parse_args()
 
-    filename = args.file
+    if args.file is not None:
+        filename = args.file
+        if filename.suffix != ".json":
+            filename = filename.with_suffix(".json")
+    elif args.seed is not None:
+        filename = pathlib.Path(f"birthday_bingo_{args.seed}.json")
+    else:
+        filename = pathlib.Path("bingo_cards.json")
     filename.parent.mkdir(parents=True, exist_ok=True)
 
     game_seed = args.seed
